@@ -5,7 +5,7 @@ import { useState } from "react";
 
 function App(props) {
   // Set default value of card deck to new shuffled deck
-  const [cardDeck, setCardDeck] = useState(makeShuffledDeck());
+  const [cardDeck] = useState(makeShuffledDeck());
   // currCards holds the cards from the current round
   const [currCards, setCurrCards] = useState([]);
 
