@@ -40,3 +40,29 @@
 .read-the-docs {
   color: #888;
 }
+
+.table-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.table-cell {
+  padding: 10px; /* Add padding to cells */
+  width: 150px;
+  justify-content: center;
+  align-items: center;
+}
+
+.table-time {
+  padding: 10px; /* Add padding to cells */
+  width: 300px;
+  align-items: center;
+  justify-content: center;
+}
+.table-cell:last-child {
+  padding: 10px; /* Add padding to cells */
+  width: 300px;
+  align-items: center;
+  justify-content: center;
+}
